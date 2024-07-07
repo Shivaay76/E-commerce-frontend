@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bor {
+    border: 2px solid red;
+}
+
+
+@keyframes jump {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(50px);
+        /* Move right */
+    }
+
+    100% {
+        transform: translateX(0);
+        /* Move back to original position */
+    }
+}
